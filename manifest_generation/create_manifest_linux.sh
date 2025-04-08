@@ -9,5 +9,5 @@
 
 find * -type f -printf '%p,%TY%Tm%Td \n' >> manifest.csv
 (echo "filename,creation_date" && cat manifest.csv) > manifest2.csv
-cat manifest2.csv | sed 2d > manifest.csv
+cat manifest2.csv > manifest.csv
 rm manifest2.csv
