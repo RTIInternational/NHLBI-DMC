@@ -2,7 +2,7 @@
 #This script creates a manifest for all files in a directory listing files and creation dates. 
 #This manifest can then be used to upload data to SevenBridges using the sb upload command
 #This script should be run from the upload directory. 
-#Run this script using the command : bash create_manifest.sh
+#Run this script using the command : bash create_manifest_linux.sh
 #After running, files can be uploaded to SevenBridges using the command:
 #	sb upload start --manifest-file manifest.csv --destination path/to/upload/directory/
 
